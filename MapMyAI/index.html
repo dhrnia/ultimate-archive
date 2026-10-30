@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MapMyAI | The Ultimate AI Directory</title>
+    <meta name="description" content="Discover and categorize 214+ artificial intelligence tools across tech, fully free or subscription.">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cyber Navbar -->
+    <nav class="mapmyai-navbar">
+        <div class="mapmyai-nav-content">
+            <a href="../ToolArchive/index.html" class="nav-brand">
+                &gt; ULTIMATE<span>ARCHIVE</span> // MAPMYAI
+            </a>
+            <div class="nav-links">
+                <a href="../ToolArchive/index.html#" class="nav-link">⌂ Home</a>
+                <a href="../ToolArchive/index.html#tools" class="nav-link">🧰 Tools Archive</a>
+                <a href="#" class="nav-link active">🤖 MapMyAI</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="app-container">
+        <!-- Header Section -->
+        <header>
+            <h1 class="title">MapMyAI</h1>
+            <p class="subtitle">Press <kbd>/</kbd> to search. Discover and explore the artificial intelligence ecosystem.</p>
+            
+            <!-- Search & Filters -->
+            <div class="controls-container">
+                <div class="search-bar">
+                    <input type="text" id="searchInput" class="filter-input" placeholder="Search for AI tools (e.g. ChatGPT, Image, Code)... 🔍">
+                </div>
+                
+                <div class="filters">
+                    <select id="categoryFilter" class="filter-input select-box">
+                        <option value="All">All Categories (21)</option>
+                        <option value="Text">Text &amp; Writing</option>
+                        <option value="Image">Image Generation</option>
+                        <option value="Audio">Audio &amp; Voice</option>
+                        <option value="Video">Video Generation</option>
+                        <option value="Code">Coding &amp; Dev</option>
+                        <option value="Productivity">Productivity</option>
+                        <option value="Data">Data Analysis</option>
+                        <option value="Graphic Design">Graphic Design</option>
+                        <option value="UI/UX">UI/UX Design</option>
+                        <option value="3D Modelling">3D Modelling</option>
+                        <option value="Animation">2D/3D Animation</option>
+                        <option value="Freelance">Freelance &amp; Business</option>
+                        <option value="App Dev">Mobile &amp; App Dev</option>
+                        <option value="Education">Education</option>
+                        <option value="Cybersecurity">Cybersecurity</option>
+                        <option value="Marketing">Marketing &amp; SEO</option>
+                        <option value="Game Dev">Game Dev</option>
+                        <option value="Research">Research &amp; Science</option>
+                        <option value="HR">HR &amp; Resumes</option>
+                        <option value="Photography">Photography &amp; Editing</option>
+                        <option value="Finance">Finance &amp; Investing</option>
+                    </select>
+
+                    <select id="pricingFilter" class="filter-input select-box">
+                        <option value="All">All Pricing Types</option>
+                        <option value="Free">Fully Free</option>
+                        <option value="Freemium">Freemium (Partly Free)</option>
+                        <option value="Limited Prompts">Limited Prompts (Free Trial)</option>
+                        <option value="Subscription">Fully Subscription</option>
+                    </select>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main>
+            <div class="results-header">
+                <h3>// FOUND <span class="highlight" id="resultCount">0</span> AI TOOLS</h3>
+            </div>
+            <div class="grid-container" id="aiGrid">
+                <!-- AI Cards will be dynamically injected here via JS -->
+            </div>
+            <div id="noResultsMsg" class="no-results hidden">
+                <h3>No AI tools found matching your criteria.</h3>
+                <p>Try adjusting your search query or filters.</p>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer>
+            <p>&gt; MAPMYAI // ULTIMATE ARCHIVE SYSTEM</p>
+        </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
