@@ -152,6 +152,11 @@ body {
   color: var(--accent-purple);
 }
 
+.nav-badge.emerald {
+  background: rgba(16, 185, 129, 0.2);
+  color: #10b981;
+}
+
 .nav-shortcut {
   font-size: 0.7rem;
   opacity: 0.6;
@@ -1293,6 +1298,139 @@ kbd {
   color: var(--accent-cyan);
 }
 
+/* ==========================================================================
+   PAGES ARCHIVE THEME & EXTENSIONS
+   ========================================================================== */
+
+.results-columns.three-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pages-col-badge {
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.quick-card-name.pages-name {
+  color: #a7f3d0;
+}
+
+.quick-card-name.pages-name:hover {
+  color: #10b981;
+}
+
+.pages-glow {
+  background: linear-gradient(90deg, transparent, #10b981, transparent);
+}
+
+.pages-portal-card:hover {
+  border-color: #10b981;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7), 0 0 30px rgba(16, 185, 129, 0.2);
+}
+
+.pages-icon-box {
+  background: rgba(16, 185, 129, 0.1);
+  border-color: rgba(16, 185, 129, 0.3);
+}
+
+.emerald-badge {
+  background: rgba(16, 185, 129, 0.15);
+  color: #10b981;
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.emerald-text {
+  color: #10b981;
+}
+
+.emerald-check {
+  color: #10b981;
+}
+
+.portal-chip.emerald-chip {
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  color: #10b981;
+}
+
+.portal-chip.emerald-chip:hover {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+}
+
+.pages-btn {
+  background: rgba(16, 185, 129, 0.12);
+  border-color: #10b981;
+  color: #10b981;
+}
+
+.pages-btn:hover {
+  background: #10b981;
+  color: #050505;
+  box-shadow: 0 0 20px rgba(16, 185, 129, 0.4);
+}
+
+.portals-grid.three-portals {
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+}
+
+.five-stats {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.pages-header {
+  border-bottom: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.pages-title {
+  color: #fff;
+}
+
+.pages-search-bar:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+}
+
+.pages-tool-card {
+  border-color: rgba(16, 185, 129, 0.15);
+}
+
+.pages-tool-card:hover {
+  border-color: #10b981;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5), 0 0 18px rgba(16, 185, 129, 0.15);
+}
+
+.pages-tag {
+  background: rgba(16, 185, 129, 0.08);
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  color: #a7f3d0;
+}
+
+.pages-tag:hover {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: #10b981;
+  color: #fff;
+}
+
+.pages-tag.highlight {
+  background: rgba(16, 185, 129, 0.25);
+  color: #10b981;
+  border-color: #10b981;
+}
+
+.pages-visit-pill {
+  color: #10b981;
+  background: rgba(16, 185, 129, 0.1);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.pricing-metered {
+  background: rgba(224, 175, 104, 0.15);
+  color: var(--accent-yellow);
+  border: 1px solid rgba(224, 175, 104, 0.3);
+}
+
 @media (max-width: 900px) {
   .nav-container {
     flex-direction: column;
@@ -1304,7 +1442,11 @@ kbd {
   .results-columns {
     grid-template-columns: 1fr;
   }
+  .results-columns.three-columns {
+    grid-template-columns: 1fr;
+  }
 }
+
 
 @media (max-width: 768px) {
   .filters-container {

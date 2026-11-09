@@ -1,4 +1,4 @@
-export default function Navbar({ activeView, setActiveView, toolsCount, aiCount }) {
+export default function Navbar({ activeView, setActiveView, toolsCount, aiCount, pagesCount }) {
   return (
     <nav className="global-navbar">
       <div className="nav-container">
@@ -9,7 +9,7 @@ export default function Navbar({ activeView, setActiveView, toolsCount, aiCount 
         >
           <span className="brand-prefix">&gt;</span>
           <span className="brand-title">ULTIMATE<span className="brand-highlight">ARCHIVE</span></span>
-          <span className="brand-version">v2.0</span>
+          <span className="brand-version">v3.0</span>
         </button>
 
         <div className="nav-links">
@@ -40,6 +40,16 @@ export default function Navbar({ activeView, setActiveView, toolsCount, aiCount 
             <span className="nav-text">MapMyAI</span>
             <span className="nav-badge purple">{aiCount}</span>
             <kbd className="nav-shortcut">A</kbd>
+          </button>
+
+          <button 
+            className={`nav-tab-btn ${activeView === 'pages' ? 'active' : ''}`}
+            onClick={() => setActiveView('pages')}
+          >
+            <span className="nav-icon">📑</span>
+            <span className="nav-text">PagesArchive</span>
+            <span className="nav-badge emerald">{pagesCount}</span>
+            <kbd className="nav-shortcut">P</kbd>
           </button>
         </div>
 

@@ -4,14 +4,17 @@ import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import ToolsView from './components/ToolsView';
 import AiView from './components/AiView';
+import PagesView from './components/PagesView';
 
 import { toolsData, allCategories, pricingTiers } from './data';
 import { aiTools, aiCategories, aiPricingTiers } from './aiData';
+import { pagesData, pagesCategories, pagesAccessTiers } from './pagesData';
 
 function getHashView() {
   const hash = window.location.hash.toLowerCase().replace('#', '').replace('/', '');
   if (hash === 'tools' || hash === 'toolarchive') return 'tools';
   if (hash === 'ai' || hash === 'mapmyai') return 'ai';
+  if (hash === 'pages' || hash === 'pagesarchive') return 'pages';
   return 'home';
 }
 
@@ -46,6 +49,20 @@ function App() {
     }
   });
 
+  // PagesArchive Filter State
+  const [pagesSearch, setPagesSearch] = useState('');
+  const [pagesCategory, setPagesCategory] = useState('All');
+  const [pagesPricing, setPagesPricing] = useState('All');
+  const [pagesOnlyFavs, setPagesOnlyFavs] = useState(false);
+  const [pagesFavorites, setPagesFavorites] = useState(() => {
+    try {
+      const saved = localStorage.getItem('pagesArchiveFavorites');
+      return saved ? JSON.parse(saved) : [];
+    } catch {
+      return [];
+    }
+  });
+
   // Synchronize tools favorites to localStorage
   useEffect(() => {
     try {
@@ -63,6 +80,15 @@ function App() {
       console.error(e);
     }
   }, [aiFavorites]);
+
+  // Synchronize Pages favorites to localStorage
+  useEffect(() => {
+    try {
+      localStorage.setItem('pagesArchiveFavorites', JSON.stringify(pagesFavorites));
+    } catch (e) {
+      console.error(e);
+    }
+  }, [pagesFavorites]);
 
   // Synchronize active view with hash
   const changeView = (view) => {
@@ -91,6 +117,8 @@ function App() {
         changeView('tools');
       } else if (e.key === 'a' || e.key === 'A' || e.key === 'm' || e.key === 'M' || e.key === '3') {
         changeView('ai');
+      } else if (e.key === 'p' || e.key === 'P' || e.key === '4') {
+        changeView('pages');
       } else if (e.key === 'Escape') {
         if (activeView !== 'home') {
           changeView('home');
@@ -117,6 +145,14 @@ function App() {
     );
   };
 
+  const togglePagesFavorite = (e, id) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setPagesFavorites(prev => 
+      prev.includes(id) ? prev.filter(favId => favId !== id) : [...prev, id]
+    );
+  };
+
   return (
     <div className="app-container">
       {/* Persistent Global Cyber Navbar */}
@@ -125,6 +161,7 @@ function App() {
         setActiveView={changeView}
         toolsCount={toolsData.length}
         aiCount={aiTools.length}
+        pagesCount={pagesData.length}
       />
 
       {/* Dynamic View Content */}
@@ -133,10 +170,13 @@ function App() {
           onSelectView={changeView}
           toolsData={toolsData}
           aiTools={aiTools}
+          pagesData={pagesData}
           setToolsSearch={setToolsSearch}
           setAiSearch={setAiSearch}
+          setPagesSearch={setPagesSearch}
           setToolsCategory={setToolsCategory}
           setAiCategory={setAiCategory}
+          setPagesCategory={setPagesCategory}
         />
       )}
 
@@ -174,6 +214,25 @@ function App() {
           setShowOnlyFavorites={setAiOnlyFavs}
           favorites={aiFavorites}
           toggleFavorite={toggleAiFavorite}
+          onBackToHome={() => changeView('home')}
+        />
+      )}
+
+      {activeView === 'pages' && (
+        <PagesView 
+          pagesData={pagesData}
+          pagesCategories={pagesCategories}
+          pagesAccessTiers={pagesAccessTiers}
+          searchQuery={pagesSearch}
+          setSearchQuery={setPagesSearch}
+          selectedCategory={pagesCategory}
+          setSelectedCategory={setPagesCategory}
+          selectedPricing={pagesPricing}
+          setSelectedPricing={setPagesPricing}
+          showOnlyFavorites={pagesOnlyFavs}
+          setShowOnlyFavorites={setPagesOnlyFavs}
+          favorites={pagesFavorites}
+          toggleFavorite={togglePagesFavorite}
           onBackToHome={() => changeView('home')}
         />
       )}

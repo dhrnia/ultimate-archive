@@ -2371,32 +2371,2349 @@ export const aiTools = [
     "pricing": "Subscription",
     "url": "https://textio.com",
     "id": 214
+  },
+  {
+    "name": "Cymath",
+    "description": "Free automated math solver that helps students solve algebra and calculus problems with instant step breakdown.",
+    "categories": [
+      "Education",
+      "Data"
+    ],
+    "pricing": "Free",
+    "url": "https://www.cymath.com",
+    "id": 215
+  },
+  {
+    "name": "Microsoft Math Solver",
+    "description": "Free AI problem solver offering step-by-step explanations, interactive graphing, and practice quizzes.",
+    "categories": [
+      "Education",
+      "Data"
+    ],
+    "pricing": "Free",
+    "url": "https://math.microsoft.com",
+    "id": 216
+  },
+  {
+    "name": "Goblin.tools",
+    "description": "Collection of free, straightforward single-task AI tools designed to break tasks into steps, formalize tone, and estimate time.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Free",
+    "url": "https://goblin.tools",
+    "id": 217
+  },
+  {
+    "name": "AnkiWeb",
+    "description": "Open-source spaced repetition flashcard system optimized for memorizing languages, medicine, and STEM facts.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Free",
+    "url": "https://ankiweb.net",
+    "id": 218
+  },
+  {
+    "name": "TutorAI",
+    "description": "Free educational prompt tool that generates structured mini-courses and chapter modules on any topic.",
+    "categories": [
+      "Education"
+    ],
+    "pricing": "Free",
+    "url": "https://www.tutorai.me",
+    "id": 219
+  },
+  {
+    "name": "DeepL Write",
+    "description": "AI writing companion that refines tone, style, and phrasing while preserving subtle context in multiple languages.",
+    "categories": [
+      "Language Learning",
+      "Text"
+    ],
+    "pricing": "Free",
+    "url": "https://www.deepl.com/write",
+    "id": 220
+  },
+  {
+    "name": "Papago",
+    "description": "Neural translation engine developed by Naver, renowned for high accuracy in Korean, Japanese, and Chinese.",
+    "categories": [
+      "Language Learning",
+      "Text"
+    ],
+    "pricing": "Free",
+    "url": "https://papago.naver.com",
+    "id": 221
+  },
+  {
+    "name": "Adobe Podcast",
+    "description": "Browser-based audio suite that turns low-quality microphone recordings into professional studio sound for free.",
+    "categories": [
+      "Content Creation",
+      "Audio"
+    ],
+    "pricing": "Free",
+    "url": "https://podcast.adobe.com",
+    "id": 222
+  },
+  {
+    "name": "CrewAI",
+    "description": "Open-source framework for orchestrating role-playing autonomous AI agents that collaborate to solve complex tasks.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://www.crewai.com",
+    "id": 223
+  },
+  {
+    "name": "AutoGen",
+    "description": "Microsoft open-source multi-agent conversation framework for orchestrating next-generation LLM applications.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://microsoft.github.io/autogen",
+    "id": 224
+  },
+  {
+    "name": "LangChain",
+    "description": "Industry-standard open-source development framework for building context-aware reasoning and agentic applications.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://www.langchain.com",
+    "id": 225
+  },
+  {
+    "name": "Flowise AI",
+    "description": "Open-source drag-and-drop UI to build customized LLM flows, multi-agent teams, and vector RAG pipelines.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://flowiseai.com",
+    "id": 226
+  },
+  {
+    "name": "Langflow",
+    "description": "Visual node-based IDE to prototype, iterate, and deploy multi-agent LLM architectures with Python flexibility.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://www.langflow.org",
+    "id": 227
+  },
+  {
+    "name": "BabyAGI",
+    "description": "Pioneering minimalist Python script demonstrating autonomous task planning, execution, and prioritization using LLMs.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/yoheinakajima/babyagi",
+    "id": 228
+  },
+  {
+    "name": "MetaGPT",
+    "description": "Multi-agent collaborative framework that assigns software company roles (PM, architect, engineer) to LLMs to build full programs.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/geekan/MetaGPT",
+    "id": 229
+  },
+  {
+    "name": "ChatDev",
+    "description": "Virtual software development company where specialized AI agents hold meetings and collaboratively program complete software.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/OpenBMB/ChatDev",
+    "id": 230
+  },
+  {
+    "name": "CAMEL-AI",
+    "description": "Open-source communication agent framework facilitating scalable autonomous cooperative behavior research.",
+    "categories": [
+      "AI Agents",
+      "Code",
+      "Research"
+    ],
+    "pricing": "Free",
+    "url": "https://www.camel-ai.org",
+    "id": 231
+  },
+  {
+    "name": "SuperAGI",
+    "description": "Open-source infrastructure platform to build, manage, and run autonomous agents with persistent memory and toolkits.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://superagi.com",
+    "id": 232
+  },
+  {
+    "name": "Promptfoo",
+    "description": "Open-source CLI and library to evaluate prompt quality, compare LLM providers, and run automated red-teaming security tests.",
+    "categories": [
+      "AI Agents",
+      "Cybersecurity",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://www.promptfoo.dev",
+    "id": 233
+  },
+  {
+    "name": "Rivet",
+    "description": "Open-source visual AI programming environment created by Ironclad for building complex graphs and prompts.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://rivet.ironcladapp.com",
+    "id": 234
+  },
+  {
+    "name": "Coze",
+    "description": "Next-gen bot development platform by ByteDance offering extensive pre-built plugins, automated workflows, and multi-agent teams.",
+    "categories": [
+      "AI Agents",
+      "App Dev"
+    ],
+    "pricing": "Free",
+    "url": "https://www.coze.com",
+    "id": 235
+  },
+  {
+    "name": "Browser Use",
+    "description": "Open-source browser automation framework that enables language models to navigate websites, click elements, and extract data.",
+    "categories": [
+      "AI Agents",
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Free",
+    "url": "https://browser-use.com",
+    "id": 236
+  },
+  {
+    "name": "Open Interpreter",
+    "description": "Open-source terminal tool that lets language models run Python, JavaScript, and Bash scripts directly on your local machine.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://openinterpreter.com",
+    "id": 237
+  },
+  {
+    "name": "Cline",
+    "description": "Autonomous coding assistant for VS Code that executes CLI commands, inspects local files, and writes code across entire repositories.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/cline/cline",
+    "id": 238
+  },
+  {
+    "name": "Roo Code",
+    "description": "Community-driven VS Code extension enabling autonomous AI coding with customizable system prompts and reasoning modes.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/RooVetGit/Roo-Cline",
+    "id": 239
+  },
+  {
+    "name": "Goose",
+    "description": "Open-source on-machine AI developer agent created by Block to build features, run tests, and debug software repositories.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://block.github.io/goose",
+    "id": 240
+  },
+  {
+    "name": "PR-Agent",
+    "description": "Open-source tool by Codium for automating pull request analysis, code suggestions, test generation, and documentation.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/Codium-ai/pr-agent",
+    "id": 241
+  },
+  {
+    "name": "Vanna.ai",
+    "description": "Open-source Python RAG framework that trains on your database metadata to generate high-accuracy SQL queries.",
+    "categories": [
+      "Code",
+      "Data"
+    ],
+    "pricing": "Free",
+    "url": "https://vanna.ai",
+    "id": 242
+  },
+  {
+    "name": "DB-GPT",
+    "description": "Open-source AI-native data app framework using multi-agents and local LLMs to query and visualize relational databases.",
+    "categories": [
+      "Code",
+      "Data",
+      "AI Agents"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/eosphoros-ai/DB-GPT",
+    "id": 243
+  },
+  {
+    "name": "Text Generation WebUI",
+    "description": "Gradio web interface for running open-source language models locally with support for llama.cpp, ExLlamaV2, and transformers.",
+    "categories": [
+      "Code",
+      "AI Agents"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/oobabooga/text-generation-webui",
+    "id": 244
+  },
+  {
+    "name": "LocalAI",
+    "description": "Open-source, self-hosted, OpenAI-compatible REST API that runs LLMs, audio synthesis, and image generation on commodity hardware.",
+    "categories": [
+      "Code",
+      "AI Agents"
+    ],
+    "pricing": "Free",
+    "url": "https://localai.io",
+    "id": 245
+  },
+  {
+    "name": "vLLM",
+    "description": "High-throughput, memory-efficient LLM serving engine featuring PagedAttention for maximum token throughput.",
+    "categories": [
+      "Code",
+      "AI Agents"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/vllm-project/vllm",
+    "id": 246
+  },
+  {
+    "name": "GPT4All",
+    "description": "Private desktop application allowing users to run open-source language models entirely offline on consumer laptops.",
+    "categories": [
+      "Productivity",
+      "Code"
+    ],
+    "pricing": "Free",
+    "url": "https://www.nomic.ai/gpt4all",
+    "id": 247
+  },
+  {
+    "name": "KoboldAI",
+    "description": "Browser-based front-end and backend for local and remote AI story generation, interactive fiction, and roleplay.",
+    "categories": [
+      "Text",
+      "Game Dev"
+    ],
+    "pricing": "Free",
+    "url": "https://koboldai.org",
+    "id": 248
+  },
+  {
+    "name": "AnythingLLM",
+    "description": "All-in-one open-source desktop and Docker application enabling full document RAG with local or cloud models.",
+    "categories": [
+      "Productivity",
+      "AI Agents"
+    ],
+    "pricing": "Free",
+    "url": "https://anythingllm.com",
+    "id": 249
+  },
+  {
+    "name": "PrivateGPT",
+    "description": "Open-source AI project enabling users to query local documents with zero data leaving the host environment.",
+    "categories": [
+      "Productivity",
+      "Research"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/zylon-ai/private-gpt",
+    "id": 250
+  },
+  {
+    "name": "LlamaIndex",
+    "description": "Data framework for developing context-augmented LLM applications, connecting custom data sources to large models.",
+    "categories": [
+      "Code",
+      "Data"
+    ],
+    "pricing": "Free",
+    "url": "https://www.llamaindex.ai",
+    "id": 251
+  },
+  {
+    "name": "ChromaDB",
+    "description": "Open-source AI-native embedding vector database designed to make RAG applications simple and fast to build.",
+    "categories": [
+      "Code",
+      "Data"
+    ],
+    "pricing": "Free",
+    "url": "https://www.trychroma.com",
+    "id": 252
+  },
+  {
+    "name": "PromptHero",
+    "description": "Community prompt search engine and gallery indexing top-rated prompts for Stable Diffusion, Midjourney, and Flux.",
+    "categories": [
+      "Graphic Design",
+      "Image"
+    ],
+    "pricing": "Free",
+    "url": "https://prompthero.com",
+    "id": 253
+  },
+  {
+    "name": "ComfyUI",
+    "description": "Powerful node-based modular graphical interface for designing intricate Stable Diffusion, SDXL, and Flux workflows.",
+    "categories": [
+      "Image",
+      "Graphic Design"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/comfyanonymous/ComfyUI",
+    "id": 254
+  },
+  {
+    "name": "Automatic1111",
+    "description": "Widely adopted open-source web UI for Stable Diffusion featuring inpainting, outpainting, textual inversion, and LoRA support.",
+    "categories": [
+      "Image",
+      "Graphic Design"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "id": 255
+  },
+  {
+    "name": "Fooocus",
+    "description": "Image generating software that combines the ease of Midjourney with the offline freedom and power of Stable Diffusion.",
+    "categories": [
+      "Image",
+      "Graphic Design"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/lllyasviel/Fooocus",
+    "id": 256
+  },
+  {
+    "name": "Krita AI Diffusion",
+    "description": "Open-source plugin integrating generative AI inpainting and live canvas generation directly into Krita.",
+    "categories": [
+      "Image",
+      "Graphic Design"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/Acly/krita-ai-diffusion",
+    "id": 257
+  },
+  {
+    "name": "Upscayl",
+    "description": "Free and open-source AI image upscaler for Windows, Mac, and Linux that runs completely offline on your GPU.",
+    "categories": [
+      "Image",
+      "Photography"
+    ],
+    "pricing": "Free",
+    "url": "https://upscayl.org",
+    "id": 258
+  },
+  {
+    "name": "Real-ESRGAN",
+    "description": "High-performance open-source algorithm that restores low-resolution real-world photos and digital artwork without artifacts.",
+    "categories": [
+      "Image",
+      "Photography"
+    ],
+    "pricing": "Free",
+    "url": "https://github.com/xinntao/Real-ESRGAN",
+    "id": 259
+  },
+  {
+    "name": "SVGcode",
+    "description": "Open-source Progressive Web App that converts raster images into crisp vector graphics locally in the browser.",
+    "categories": [
+      "Graphic Design"
+    ],
+    "pricing": "Free",
+    "url": "https://svgco.de",
+    "id": 260
+  },
+  {
+    "name": "VocalRemover.org",
+    "description": "Fast free online AI tool to separate vocals from music accompaniment and isolate acoustic stems.",
+    "categories": [
+      "Audio"
+    ],
+    "pricing": "Free",
+    "url": "https://vocalremover.org",
+    "id": 261
+  },
+  {
+    "name": "PDFgear",
+    "description": "Completely free desktop and web PDF editor featuring a built-in AI copilot for document search and extraction.",
+    "categories": [
+      "Productivity",
+      "Education"
+    ],
+    "pricing": "Free",
+    "url": "https://www.pdfgear.com",
+    "id": 262
+  },
+  {
+    "name": "Affine",
+    "description": "Open-source next-gen collaborative workspace integrating privacy-first docs, whiteboards, and AI mind maps.",
+    "categories": [
+      "Productivity",
+      "Education"
+    ],
+    "pricing": "Free",
+    "url": "https://affine.pro",
+    "id": 263
+  },
+  {
+    "name": "Anytype",
+    "description": "Local-first, encrypted, open-source personal workspace designed for complete digital sovereignty and knowledge tracking.",
+    "categories": [
+      "Productivity",
+      "Cybersecurity"
+    ],
+    "pricing": "Free",
+    "url": "https://anytype.io",
+    "id": 264
+  },
+  {
+    "name": "Photomath",
+    "description": "Camera-based math learning app providing step-by-step explanations, animated instructions, and graphing.",
+    "categories": [
+      "Education",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "url": "https://photomath.com",
+    "id": 265
+  },
+  {
+    "name": "Wolfram|Alpha",
+    "description": "Computational knowledge engine delivering step-by-step math solutions, physics calculations, and scientific data.",
+    "categories": [
+      "Education",
+      "Data",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.wolframalpha.com",
+    "id": 266
+  },
+  {
+    "name": "Mathway",
+    "description": "Comprehensive step-by-step math solver covering basic algebra to advanced calculus and chemistry.",
+    "categories": [
+      "Education",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.mathway.com",
+    "id": 267
+  },
+  {
+    "name": "Symbolab",
+    "description": "Advanced math solver providing step-by-step practice, equation search, graphing, and cheat sheets.",
+    "categories": [
+      "Education",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.symbolab.com",
+    "id": 268
+  },
+  {
+    "name": "Elsa Speak",
+    "description": "AI speech coach that analyzes pronunciation, fluency, and word stress for English language learners.",
+    "categories": [
+      "Education",
+      "Language Learning",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://elsaspeak.com",
+    "id": 269
+  },
+  {
+    "name": "Speak",
+    "description": "AI-powered conversational language tutor providing interactive spoken dialogues and real-time corrections.",
+    "categories": [
+      "Language Learning",
+      "Education",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.speak.com",
+    "id": 270
+  },
+  {
+    "name": "TalkPal",
+    "description": "GPT-powered language tutor allowing users to chat or talk about unlimited topics in over 57 languages.",
+    "categories": [
+      "Language Learning",
+      "Education",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://talkpal.ai",
+    "id": 271
+  },
+  {
+    "name": "Lingvist",
+    "description": "Adaptive vocabulary platform utilizing AI algorithms to customize language flashcards to individual skill gaps.",
+    "categories": [
+      "Language Learning",
+      "Education"
+    ],
+    "pricing": "Freemium",
+    "url": "https://lingvist.com",
+    "id": 272
+  },
+  {
+    "name": "Memrise",
+    "description": "Language learning platform featuring video clips of native speakers and an AI conversational partner.",
+    "categories": [
+      "Language Learning",
+      "Education"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.memrise.com",
+    "id": 273
+  },
+  {
+    "name": "HelloTalk",
+    "description": "Global language exchange community equipped with built-in AI translation, grammar correction, and voice transcription.",
+    "categories": [
+      "Language Learning",
+      "Education"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.hellotalk.com",
+    "id": 274
+  },
+  {
+    "name": "Loora",
+    "description": "Generative AI English tutor that converses naturally on real-world topics with pronunciation feedback.",
+    "categories": [
+      "Language Learning",
+      "Education",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://loora.ai",
+    "id": 275
+  },
+  {
+    "name": "Praktika",
+    "description": "Interactive language practice app using photorealistic 3D avatars for spoken English conversation.",
+    "categories": [
+      "Language Learning",
+      "Education",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://praktika.ai",
+    "id": 276
+  },
+  {
+    "name": "MagicSchool AI",
+    "description": "Dedicated AI copilot for educators providing 60+ tools for lesson planning, IEP writing, and worksheet generation.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.magicschool.ai",
+    "id": 277
+  },
+  {
+    "name": "Diffit",
+    "description": "Teacher tool that instantly generates leveled reading passages, summaries, and comprehension questions for any topic.",
+    "categories": [
+      "Education",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://web.diffit.me",
+    "id": 278
+  },
+  {
+    "name": "Brisk Teaching",
+    "description": "Chrome extension for teachers that adjusts reading levels, creates quizzes, and gives formative feedback.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.briskteaching.com",
+    "id": 279
+  },
+  {
+    "name": "Eduaide.ai",
+    "description": "Modular AI workspace for lesson design, syllabus creation, assessment generation, and teaching scaffolds.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.eduaide.ai",
+    "id": 280
+  },
+  {
+    "name": "Mindgrasp",
+    "description": "AI study companion that reads long PDFs, lecture recordings, and YouTube videos to create instant study notes.",
+    "categories": [
+      "Education",
+      "Productivity",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://mindgrasp.ai",
+    "id": 281
+  },
+  {
+    "name": "StudyX",
+    "description": "AI homework helper integrating community Q&A and multiple reasoning models for college and high school subjects.",
+    "categories": [
+      "Education",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "url": "https://studyx.ai",
+    "id": 282
+  },
+  {
+    "name": "QuestionWell",
+    "description": "AI tool that generates assessment questions, learning objectives, and exportable Kahoot/Quizlet sets from any text.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.questionwell.org",
+    "id": 283
+  },
+  {
+    "name": "RemNote",
+    "description": "All-in-one thinking and learning tool that integrates flashcards directly into hierarchical note-taking.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.remnote.com",
+    "id": 284
+  },
+  {
+    "name": "Quizgecko",
+    "description": "AI quiz maker that generates interactive tests, flashcards, and assessments from text, URLs, or documents.",
+    "categories": [
+      "Education",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://quizgecko.com",
+    "id": 285
+  },
+  {
+    "name": "Gizmo",
+    "description": "Gamified AI study platform that converts class notes into interactive quizzes and spaced repetition flashcards.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://gizmo.ai",
+    "id": 286
+  },
+  {
+    "name": "Monic.ai",
+    "description": "Intelligent study organizer that summarizes uploaded textbooks and auto-generates practice exams.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://monic.ai",
+    "id": 287
+  },
+  {
+    "name": "Scribe",
+    "description": "AI documentation tool that records your screen clicks and turns any digital process into visual step-by-step guides.",
+    "categories": [
+      "Education",
+      "Productivity",
+      "Content Creation"
+    ],
+    "pricing": "Freemium",
+    "url": "https://scribehow.com",
+    "id": 288
+  },
+  {
+    "name": "Gradescope",
+    "description": "AI-assisted assessment platform that streamlines grading paper-based exams, programming projects, and bubble sheets.",
+    "categories": [
+      "Education",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.gradescope.com",
+    "id": 289
+  },
+  {
+    "name": "Shiken",
+    "description": "Mindful learning app that gamifies exam revision with AI quiz generation, flashcards, and speed runs.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://shiken.ai",
+    "id": 290
+  },
+  {
+    "name": "Litmaps",
+    "description": "Visual citation mapping platform that uncovers related research papers and tracks emerging scientific trends.",
+    "categories": [
+      "Education",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.litmaps.com",
+    "id": 291
+  },
+  {
+    "name": "Rayyan",
+    "description": "AI systematic literature review workbench that accelerates title and abstract screening for research teams.",
+    "categories": [
+      "Education",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.rayyan.ai",
+    "id": 292
+  },
+  {
+    "name": "Explainpaper",
+    "description": "Paste confusing passages from academic papers to receive instant, intuitive, plain-English explanations.",
+    "categories": [
+      "Education",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.explainpaper.com",
+    "id": 293
+  },
+  {
+    "name": "Paperpal",
+    "description": "AI writing and editing assistant trained on published journal articles to polish academic papers for peer review.",
+    "categories": [
+      "Education",
+      "Research",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://paperpal.com",
+    "id": 294
+  },
+  {
+    "name": "Scrintal",
+    "description": "Visual canvas connecting mind-mapping, research notes, and multimedia into an interactive knowledge web.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.scrintal.com",
+    "id": 295
+  },
+  {
+    "name": "UpStudy",
+    "description": "Mobile STEM problem solver that uses computer vision to break down physics, chemistry, and calculus questions.",
+    "categories": [
+      "Education",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "url": "https://upstudy.ai",
+    "id": 296
+  },
+  {
+    "name": "DeepL",
+    "description": "State-of-the-art neural machine translation engine known for nuanced, natural, and idiomatic translations.",
+    "categories": [
+      "Language Learning",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.deepl.com",
+    "id": 297
+  },
+  {
+    "name": "Reverso",
+    "description": "Contextual translation dictionary with million real-world examples, verb conjugator, and AI spell checker.",
+    "categories": [
+      "Language Learning",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.reverso.net",
+    "id": 298
+  },
+  {
+    "name": "LanguageTool",
+    "description": "Open-source multilingual grammar, style, and spell checker supporting over 30 languages.",
+    "categories": [
+      "Language Learning",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://languagetool.org",
+    "id": 299
+  },
+  {
+    "name": "ProWritingAid",
+    "description": "Comprehensive manuscript and essay editor analyzing pacing, consistency, repeated words, and readability.",
+    "categories": [
+      "Education",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://prowritingaid.com",
+    "id": 300
+  },
+  {
+    "name": "CapCut",
+    "description": "All-in-one video editing platform featuring AI auto-captions, background removal, and viral templates.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.capcut.com",
+    "id": 301
+  },
+  {
+    "name": "Riverside.fm",
+    "description": "Studio-quality remote recording studio that automatically generates short AI clips, transcripts, and show notes.",
+    "categories": [
+      "Content Creation",
+      "Audio",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://riverside.fm",
+    "id": 302
+  },
+  {
+    "name": "Podcastle",
+    "description": "All-in-one audio creation suite with studio-grade vocal enhancement, voice cloning, and AI multitrack editing.",
+    "categories": [
+      "Content Creation",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://podcastle.ai",
+    "id": 303
+  },
+  {
+    "name": "Castmagic",
+    "description": "AI workflow tool that turns podcast episodes and webinars into show notes, timestamps, newsletters, and tweets.",
+    "categories": [
+      "Content Creation",
+      "Audio",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.castmagic.io",
+    "id": 304
+  },
+  {
+    "name": "Swell AI",
+    "description": "AI production assistant for podcasters that writes show notes, articles, transcripts, and social media posts.",
+    "categories": [
+      "Content Creation",
+      "Audio",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.swellai.com",
+    "id": 305
+  },
+  {
+    "name": "Vidyo.ai",
+    "description": "Repurposing platform that extracts high-engagement short vertical clips with captions from long YouTube videos.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://vidyo.ai",
+    "id": 306
+  },
+  {
+    "name": "Klap",
+    "description": "Turns long YouTube videos into TikToks, Reels, and Shorts with automatic framing and auto-generated captions.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://klap.app",
+    "id": 307
+  },
+  {
+    "name": "Pictory",
+    "description": "AI video generator that creates short branded video summaries from long articles, scripts, and webinars.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://pictory.ai",
+    "id": 308
+  },
+  {
+    "name": "Creatify AI",
+    "description": "Generates high-converting short video ads from simple product URLs in minutes with AI voiceover.",
+    "categories": [
+      "Content Creation",
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "url": "https://creatify.ai",
+    "id": 309
+  },
+  {
+    "name": "Syllaby",
+    "description": "Video marketing planner that researches viral questions, drafts video outlines, and generates video scripts.",
+    "categories": [
+      "Content Creation",
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "url": "https://syllaby.io",
+    "id": 310
+  },
+  {
+    "name": "Crayo.ai",
+    "description": "Fast viral video generator creating split-screen gameplay, Reddit stories, and captioned shorts automatically.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://crayo.ai",
+    "id": 311
+  },
+  {
+    "name": "AutoCut",
+    "description": "Premiere Pro and DaVinci plugin that removes silences, animates zooms, and generates animated subtitles.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://autocut.fr",
+    "id": 312
+  },
+  {
+    "name": "Vsub",
+    "description": "Automated subtitle generator that produces dynamic viral captions with emojis, highlights, and animations.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://vsub.io",
+    "id": 313
+  },
+  {
+    "name": "Postwise",
+    "description": "AI-assisted tweet writer and thread creator designed to grow followings and automate viral social posts.",
+    "categories": [
+      "Content Creation",
+      "Marketing",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://postwise.ai",
+    "id": 314
+  },
+  {
+    "name": "Buffer AI Assistant",
+    "description": "Integrated social media copy generator that rewrites, repurposes, and expands post ideas for multi-channel scheduling.",
+    "categories": [
+      "Content Creation",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "url": "https://buffer.com/ai-assistant",
+    "id": 315
+  },
+  {
+    "name": "FeedHive",
+    "description": "AI social media scheduling and analytics tool that predicts post engagement and generates high-performing copy.",
+    "categories": [
+      "Content Creation",
+      "Marketing"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.feedhive.com",
+    "id": 316
+  },
+  {
+    "name": "Ocoya",
+    "description": "Content automation tool combining AI copywriting, Canva-like graphic creation, and multi-network post scheduling.",
+    "categories": [
+      "Content Creation",
+      "Marketing",
+      "Graphic Design"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.ocoya.com",
+    "id": 317
+  },
+  {
+    "name": "Predis.ai",
+    "description": "Turns plain text prompts into ready-to-post social media carousels, video reels, and banners with copy and hashtags.",
+    "categories": [
+      "Content Creation",
+      "Marketing",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://predis.ai",
+    "id": 318
+  },
+  {
+    "name": "Simplified",
+    "description": "Collaborative design app offering AI video editing, presentation creation, copywriting, and social media management.",
+    "categories": [
+      "Content Creation",
+      "Graphic Design",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://simplified.com",
+    "id": 319
+  },
+  {
+    "name": "ContentBot",
+    "description": "AI content automation platform designed for founders and digital marketers seeking automated blogging workflows.",
+    "categories": [
+      "Content Creation",
+      "Marketing",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://contentbot.ai",
+    "id": 320
+  },
+  {
+    "name": "Thumbnail Geek",
+    "description": "AI thumbnail generator that designs clickable, high-contrast YouTube thumbnails tailored to your video concept.",
+    "categories": [
+      "Content Creation",
+      "Graphic Design"
+    ],
+    "pricing": "Freemium",
+    "url": "https://thumbnailgeek.com",
+    "id": 321
+  },
+  {
+    "name": "Magic Thumbnails",
+    "description": "AI-powered thumbnail creator that analyzes video titles and descriptions to produce compelling YouTube covers.",
+    "categories": [
+      "Content Creation",
+      "Graphic Design"
+    ],
+    "pricing": "Freemium",
+    "url": "https://magicthumbnails.com",
+    "id": 322
+  },
+  {
+    "name": "Pitch",
+    "description": "Collaborative presentation maker with AI generation for pitch decks, sales materials, and investor updates.",
+    "categories": [
+      "Content Creation",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://pitch.com",
+    "id": 323
+  },
+  {
+    "name": "SlidesAI",
+    "description": "Google Slides extension that converts raw text outlines into formatted slide decks in seconds.",
+    "categories": [
+      "Content Creation",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.slidesai.io",
+    "id": 324
+  },
+  {
+    "name": "Presentations.ai",
+    "description": "Generates beautiful, on-brand presentation decks from simple prompts, with responsive layout adjustments.",
+    "categories": [
+      "Content Creation",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.presentations.ai",
+    "id": 325
+  },
+  {
+    "name": "PopAi",
+    "description": "All-in-one AI workspace that generates structured presentations, interactive mind maps, and document summaries.",
+    "categories": [
+      "Content Creation",
+      "Productivity",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.popai.pro",
+    "id": 326
+  },
+  {
+    "name": "Manus AI",
+    "description": "Autonomous general agent capable of performing deep internet research, compiling reports, and formatting slides.",
+    "categories": [
+      "Content Creation",
+      "Productivity",
+      "AI Agents"
+    ],
+    "pricing": "Freemium",
+    "url": "https://manus.im",
+    "id": 327
+  },
+  {
+    "name": "Hypotenuse AI",
+    "description": "E-commerce focused AI copywriter that produces bulk product descriptions, blog posts, and campaign copy.",
+    "categories": [
+      "Content Creation",
+      "Marketing",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.hypotenuse.ai",
+    "id": 328
+  },
+  {
+    "name": "StoryNest.ai",
+    "description": "Interactive AI creative writing app where readers can chat with characters, direct plotlines, and generate audiobooks.",
+    "categories": [
+      "Content Creation",
+      "Text",
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://storynest.ai",
+    "id": 329
+  },
+  {
+    "name": "Chatsonic",
+    "description": "Conversational AI assistant backed by real-time Google search data, image generation, and voice commands.",
+    "categories": [
+      "Content Creation",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://writesonic.com/chat",
+    "id": 330
+  },
+  {
+    "name": "Hemingway Editor Plus",
+    "description": "Classic clarity editor enriched with AI to rewrite awkward sentences, eliminate wordiness, and fix passive voice.",
+    "categories": [
+      "Content Creation",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://hemingwayapp.com",
+    "id": 331
+  },
+  {
+    "name": "QuillBot Co-Writer",
+    "description": "Unified web word processor integrating instant paraphrase, grammar check, web research, and citation generator.",
+    "categories": [
+      "Content Creation",
+      "Text",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://quillbot.com/cowriter",
+    "id": 332
+  },
+  {
+    "name": "Trinka AI",
+    "description": "Grammar checker and linguistic assistant customized for complex academic, medical, and scientific manuscripts.",
+    "categories": [
+      "Content Creation",
+      "Text",
+      "Education"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.trinka.ai",
+    "id": 333
+  },
+  {
+    "name": "InstaText",
+    "description": "Advanced rewriting tool that elevates rough non-native English into sophisticated, natural-sounding prose.",
+    "categories": [
+      "Content Creation",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://instatext.io",
+    "id": 334
+  },
+  {
+    "name": "Wordtune Spices",
+    "description": "Contextual writing enhancer that injects relevant statistics, counterarguments, examples, and analogies into text.",
+    "categories": [
+      "Content Creation",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.wordtune.com",
+    "id": 335
+  },
+  {
+    "name": "D-ID",
+    "description": "Generates photorealistic talking video avatars and dynamic video presentations from a single portrait and audio script.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.d-id.com",
+    "id": 336
+  },
+  {
+    "name": "Colossyan",
+    "description": "Workplace learning video creator using synthetic AI avatars with instant multilingual voice localization.",
+    "categories": [
+      "Content Creation",
+      "Video",
+      "Education"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.colossyan.com",
+    "id": 337
+  },
+  {
+    "name": "Elai.io",
+    "description": "Enterprise video platform that builds presenter-led explainer videos directly from blog articles or PDF presentations.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://elai.io",
+    "id": 338
+  },
+  {
+    "name": "Hour One",
+    "description": "Virtual human video generator that converts text scripts into newsroom-style broadcasts and corporate tutorials.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.hourone.ai",
+    "id": 339
+  },
+  {
+    "name": "ElevenLabs Dubbing",
+    "description": "AI video dubbing platform that translates video speech across 29 languages while preserving the speaker's original voice timbre.",
+    "categories": [
+      "Content Creation",
+      "Audio",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://elevenlabs.io/dubbing",
+    "id": 340
+  },
+  {
+    "name": "Akool",
+    "description": "Visual generative AI platform offering high-fidelity face swapping, realistic avatar animation, and background generation.",
+    "categories": [
+      "Content Creation",
+      "Video",
+      "Image"
+    ],
+    "pricing": "Freemium",
+    "url": "https://akool.com",
+    "id": 341
+  },
+  {
+    "name": "Cascadeur",
+    "description": "Physics-based 3D character animation software equipped with AI auto-posing, physical secondary motion, and ballistic trajectory tools.",
+    "categories": [
+      "Content Creation",
+      "3D Modelling",
+      "Animation"
+    ],
+    "pricing": "Freemium",
+    "url": "https://cascadeur.com",
+    "id": 342
+  },
+  {
+    "name": "Plask",
+    "description": "Browser-based mocap tool that extracts 3D skeleton animation data from ordinary webcam or mobile video recordings.",
+    "categories": [
+      "Content Creation",
+      "Animation",
+      "3D Modelling"
+    ],
+    "pricing": "Freemium",
+    "url": "https://plask.ai",
+    "id": 343
+  },
+  {
+    "name": "LangSmith",
+    "description": "Developer platform for testing, evaluating, debugging, and monitoring complex LLM agent pipelines.",
+    "categories": [
+      "AI Agents",
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://smith.langchain.com",
+    "id": 344
+  },
+  {
+    "name": "Dify.ai",
+    "description": "Production-ready open-source LLM application platform unifying prompt engineering, RAG, and agent workflows.",
+    "categories": [
+      "AI Agents",
+      "Code",
+      "App Dev"
+    ],
+    "pricing": "Freemium",
+    "url": "https://dify.ai",
+    "id": 345
+  },
+  {
+    "name": "AgentGPT",
+    "description": "Browser-based autonomous agent runner allowing anyone to deploy goal-driven AI agents in one click.",
+    "categories": [
+      "AI Agents",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://agentgpt.reworkd.ai",
+    "id": 346
+  },
+  {
+    "name": "Voiceflow",
+    "description": "Collaborative design and deployment platform for customer-facing conversational AI agents and chatbots.",
+    "categories": [
+      "AI Agents",
+      "App Dev"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.voiceflow.com",
+    "id": 347
+  },
+  {
+    "name": "Botpress",
+    "description": "Developer-first platform to build sophisticated, autonomous chatbots equipped with vector knowledge bases and API actions.",
+    "categories": [
+      "AI Agents",
+      "App Dev"
+    ],
+    "pricing": "Freemium",
+    "url": "https://botpress.com",
+    "id": 348
+  },
+  {
+    "name": "MindStudio",
+    "description": "No-code enterprise development platform for building custom internal AI applications, tools, and autonomous workers.",
+    "categories": [
+      "AI Agents",
+      "Productivity",
+      "App Dev"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.mindstudio.ai",
+    "id": 349
+  },
+  {
+    "name": "Gumloop",
+    "description": "Visual automation canvas that empowers non-technical users to build AI-driven web scraping and data processing pipelines.",
+    "categories": [
+      "AI Agents",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.gumloop.com",
+    "id": 350
+  },
+  {
+    "name": "Relevance AI",
+    "description": "Workforce automation platform where companies assemble teams of autonomous AI BDRs, researchers, and operations agents.",
+    "categories": [
+      "AI Agents",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://relevanceai.com",
+    "id": 351
+  },
+  {
+    "name": "Lindy.ai",
+    "description": "Autonomous AI assistant that manages email triaging, meeting coordination, customer support tickets, and CRM updates.",
+    "categories": [
+      "AI Agents",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.lindy.ai",
+    "id": 352
+  },
+  {
+    "name": "Zapier Central",
+    "description": "Experimental workspace where users can teach autonomous AI bots to take immediate action across 6,000+ business apps.",
+    "categories": [
+      "AI Agents",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://central.zapier.com",
+    "id": 353
+  },
+  {
+    "name": "Make AI",
+    "description": "Visual integration platform that connects applications and embeds LLM decision logic directly into complex workflows.",
+    "categories": [
+      "AI Agents",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.make.com",
+    "id": 354
+  },
+  {
+    "name": "SmythOS",
+    "description": "Autonomous agent operating system designed to build, host, and monitor enterprise-grade multi-agent swarms.",
+    "categories": [
+      "AI Agents",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://smythos.com",
+    "id": 355
+  },
+  {
+    "name": "Wordware",
+    "description": "Web-based IDE designed for domain specialists to build, debug, and iterate on AI agents using plain markdown text.",
+    "categories": [
+      "AI Agents",
+      "Code"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.wordware.ai",
+    "id": 356
+  },
+  {
+    "name": "MultiOn",
+    "description": "Autonomous web agent that uses browser automation to execute complex online tasks like booking flights or shopping.",
+    "categories": [
+      "AI Agents",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.multion.ai",
+    "id": 357
+  },
+  {
+    "name": "Amazon Q Developer",
+    "description": "Generative AI coding assistant for writing code, debugging, security scanning, and modernizing legacy code on AWS.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://aws.amazon.com/q/developer",
+    "id": 358
+  },
+  {
+    "name": "CodeRabbit",
+    "description": "AI code reviewer that provides line-by-line feedback, contextual summaries, and potential bug warnings on pull requests.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://coderabbit.ai",
+    "id": 359
+  },
+  {
+    "name": "Grit.io",
+    "description": "Automated software maintenance platform that executes large-scale codebase migrations and framework upgrades using AI.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.grit.io",
+    "id": 360
+  },
+  {
+    "name": "Warp AI",
+    "description": "Modern Rust-based terminal with integrated AI assistant to troubleshoot errors and generate shell commands naturally.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.warp.dev",
+    "id": 361
+  },
+  {
+    "name": "Text2SQL.ai",
+    "description": "Instant AI tool that translates natural English queries into complex SQL statements, regular expressions, and formulas.",
+    "categories": [
+      "Code",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.text2sql.ai",
+    "id": 362
+  },
+  {
+    "name": "Faraday.dev",
+    "description": "Zero-configuration offline desktop client for chatting with local AI characters and personal assistants in complete privacy.",
+    "categories": [
+      "Text",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://faraday.dev",
+    "id": 363
+  },
+  {
+    "name": "Quivr",
+    "description": "Open-source second brain in the cloud or local machine that connects personal files and notes to generative AI.",
+    "categories": [
+      "Productivity",
+      "AI Agents"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.quivr.app",
+    "id": 364
+  },
+  {
+    "name": "Khoj",
+    "description": "Open-source desktop and cloud personal AI assistant that indexes your Obsidian notes, PDFs, and web history.",
+    "categories": [
+      "Productivity",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "url": "https://khoj.dev",
+    "id": 365
+  },
+  {
+    "name": "Weaviate",
+    "description": "Cloud-native, open-source vector database with hybrid keyword and semantic search out of the box.",
+    "categories": [
+      "Code",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "url": "https://weaviate.io",
+    "id": 366
+  },
+  {
+    "name": "Pinecone Assistant",
+    "description": "Serverless vector indexing and retrieval assistant engineered for high-scale enterprise knowledge bases.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.pinecone.io",
+    "id": 367
+  },
+  {
+    "name": "OpenRouter",
+    "description": "Unified API gateway offering low-latency access to hundreds of open-source and proprietary language models.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://openrouter.ai",
+    "id": 368
+  },
+  {
+    "name": "GroqCloud",
+    "description": "LPU inference engine delivering blistering fast token generation speeds for open-source models like Llama and Mistral.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://groq.com",
+    "id": 369
+  },
+  {
+    "name": "Together AI",
+    "description": "Cloud infrastructure platform for training, fine-tuning, and querying open-source models with high efficiency.",
+    "categories": [
+      "Code",
+      "AI Agents"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.together.ai",
+    "id": 370
+  },
+  {
+    "name": "Cerebras Inference",
+    "description": "Wafer-scale AI inference cloud delivering instantaneous, record-setting output speeds for developer applications.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://cerebras.ai",
+    "id": 371
+  },
+  {
+    "name": "InvokeAI",
+    "description": "Creative engine for visual artists providing a unified canvas for generative image creation and precision editing.",
+    "categories": [
+      "Image",
+      "Graphic Design"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.invoke.com",
+    "id": 372
+  },
+  {
+    "name": "Photopea",
+    "description": "Free web-based raster and vector image editor with integrated AI generative fill, object removal, and background replacement.",
+    "categories": [
+      "Image",
+      "Graphic Design"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.photopea.com",
+    "id": 373
+  },
+  {
+    "name": "Remove.bg",
+    "description": "Automated background remover that extracts subjects from portraits and product shots in seconds.",
+    "categories": [
+      "Image",
+      "Photography"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.remove.bg",
+    "id": 374
+  },
+  {
+    "name": "Pixelcut",
+    "description": "AI photo studio mobile and web app offering clean product cutouts, shadows, batch editing, and magic eraser.",
+    "categories": [
+      "Image",
+      "Graphic Design",
+      "Photography"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.pixelcut.ai",
+    "id": 375
+  },
+  {
+    "name": "Bigjpg",
+    "description": "AI image enlarger utilizing deep convolutional neural networks to upscale anime illustrations and photos without noise.",
+    "categories": [
+      "Image",
+      "Photography"
+    ],
+    "pricing": "Freemium",
+    "url": "https://bigjpg.com",
+    "id": 376
+  },
+  {
+    "name": "Stable Audio",
+    "description": "Generative audio model by Stability AI producing high-quality sound effects, cinematic ambiance, and music loops.",
+    "categories": [
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://stableaudio.com",
+    "id": 377
+  },
+  {
+    "name": "Kits.ai",
+    "description": "AI music voice platform providing licensed artist vocal models, voice training, and stem extraction for producers.",
+    "categories": [
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.kits.ai",
+    "id": 378
+  },
+  {
+    "name": "Soundful",
+    "description": "Royalty-free AI music generator enabling creators and streamers to produce background tracks at the click of a button.",
+    "categories": [
+      "Audio"
+    ],
+    "pricing": "Freemium",
+    "url": "https://soundful.com",
+    "id": 379
+  },
+  {
+    "name": "Krisp",
+    "description": "On-device AI voice clarity app that eliminates background noise, echoes, and nearby voices during live meetings.",
+    "categories": [
+      "Audio",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://krisp.ai",
+    "id": 380
+  },
+  {
+    "name": "AskYourPDF",
+    "description": "Interactive PDF reading system that extracts citations, clarifies dense documents, and writes summaries.",
+    "categories": [
+      "Productivity",
+      "Education"
+    ],
+    "pricing": "Freemium",
+    "url": "https://askyourpdf.com",
+    "id": 381
+  },
+  {
+    "name": "Humata AI",
+    "description": "Document AI platform that parses scientific publications and legal agreements with clickable page-level citations.",
+    "categories": [
+      "Productivity",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.humata.ai",
+    "id": 382
+  },
+  {
+    "name": "Sharly AI",
+    "description": "Upload any document format (Word, PDF, Powerpoint) and query it conversationally with pinpoint source references.",
+    "categories": [
+      "Productivity",
+      "Education"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.sharly.ai",
+    "id": 383
+  },
+  {
+    "name": "UPDF AI",
+    "description": "Modern PDF editing software with AI features to translate, summarize, explain, and extract data from complex PDFs.",
+    "categories": [
+      "Productivity",
+      "Education"
+    ],
+    "pricing": "Freemium",
+    "url": "https://updf.com",
+    "id": 384
+  },
+  {
+    "name": "Monica AI",
+    "description": "All-in-one browser assistant providing sidebar chat, webpage summarization, writing assistance, and grammar checks.",
+    "categories": [
+      "Productivity",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://monica.im",
+    "id": 385
+  },
+  {
+    "name": "Sider AI",
+    "description": "Versatile browser sidebar integrating ChatGPT, Claude, and Gemini for reading and writing assistance anywhere on the web.",
+    "categories": [
+      "Productivity",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://sider.ai",
+    "id": 386
+  },
+  {
+    "name": "MaxAI.me",
+    "description": "Universal AI extension that helps users compose emails, summarize long web articles, and polish text across any tab.",
+    "categories": [
+      "Productivity",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.maxai.me",
+    "id": 387
+  },
+  {
+    "name": "Merlin AI",
+    "description": "Browser extension offering instant access to multiple LLMs for YouTube video summarization and social replies.",
+    "categories": [
+      "Productivity",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.getmerlin.in",
+    "id": 388
+  },
+  {
+    "name": "Liner AI",
+    "description": "AI-powered web highlighter and search engine that filters credible internet knowledge to give direct answers.",
+    "categories": [
+      "Productivity",
+      "Research"
+    ],
+    "pricing": "Freemium",
+    "url": "https://getliner.com",
+    "id": 389
+  },
+  {
+    "name": "You.com",
+    "description": "Conversational search engine with customizable modes for web research, coding, writing, and creative ideation.",
+    "categories": [
+      "Productivity",
+      "Text"
+    ],
+    "pricing": "Freemium",
+    "url": "https://you.com",
+    "id": 390
+  },
+  {
+    "name": "Brave Leo",
+    "description": "Private AI assistant built directly into the Brave browser, capable of summarizing pages and answering queries anonymously.",
+    "categories": [
+      "Productivity",
+      "Cybersecurity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://brave.com/leo",
+    "id": 391
+  },
+  {
+    "name": "Exa.ai",
+    "description": "Neural search engine built for AI applications and agents that understands meaning rather than mere keywords.",
+    "categories": [
+      "Productivity",
+      "Code"
+    ],
+    "pricing": "Freemium",
+    "url": "https://exa.ai",
+    "id": 392
+  },
+  {
+    "name": "Tavily",
+    "description": "Search API engineered specifically for autonomous AI agents to retrieve fast, factual, and noise-filtered web data.",
+    "categories": [
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Freemium",
+    "url": "https://tavily.com",
+    "id": 393
+  },
+  {
+    "name": "Capacities",
+    "description": "Object-based note-taking studio that organizes thoughts, tasks, and media with relational intelligence and AI queries.",
+    "categories": [
+      "Productivity",
+      "Education"
+    ],
+    "pricing": "Freemium",
+    "url": "https://capacities.io",
+    "id": 394
+  },
+  {
+    "name": "Chatbase",
+    "description": "Custom AI chatbot builder that connects to your website data, Notion, and PDFs to answer customer inquiries 24/7.",
+    "categories": [
+      "AI Agents"
+    ],
+    "pricing": "Freemium",
+    "url": "https://www.chatbase.co",
+    "id": 395
+  },
+  {
+    "name": "Dante AI",
+    "description": "Zero-code platform to build custom AI chatbots with uploadable files, voice capabilities, and multi-channel widgets.",
+    "categories": [
+      "AI Agents"
+    ],
+    "pricing": "Freemium",
+    "url": "https://dante-ai.com",
+    "id": 396
+  },
+  {
+    "name": "LibreChat",
+    "description": "Open-source AI chat platform supporting multi-model AI (OpenAI, Anthropic, Ollama), artifacts, and agent plugins.",
+    "categories": [
+      "AI Agents",
+      "Code",
+      "Productivity"
+    ],
+    "pricing": "Free",
+    "url": "https://www.librechat.ai",
+    "id": 397
+  },
+  {
+    "name": "Google Colab",
+    "description": "Hosted Jupyter notebook service providing free cloud GPU and TPU access for AI, machine learning, and data science.",
+    "categories": [
+      "Code",
+      "Education",
+      "Data"
+    ],
+    "pricing": "Freemium",
+    "url": "https://colab.research.google.com",
+    "id": 398
+  },
+  {
+    "name": "Logseq",
+    "description": "Privacy-first, open-source knowledge base and outliner with AI plugins and built-in spaced repetition flashcards.",
+    "categories": [
+      "Education",
+      "Productivity"
+    ],
+    "pricing": "Free",
+    "url": "https://logseq.com",
+    "id": 399
+  },
+  {
+    "name": "Learn Prompting",
+    "description": "Open-source, comprehensive interactive curriculum for learning prompt engineering, AI agents, and LLM architecture.",
+    "categories": [
+      "Education",
+      "AI Agents"
+    ],
+    "pricing": "Free",
+    "url": "https://learnprompting.org",
+    "id": 400
+  },
+  {
+    "name": "LobeChat",
+    "description": "Modern open-source LLM chat framework featuring multimodal support, speech synthesis, artifacts, and agent plugins.",
+    "categories": [
+      "AI Agents",
+      "Productivity"
+    ],
+    "pricing": "Free",
+    "url": "https://lobechat.com",
+    "id": 401
+  },
+  {
+    "name": "Clipchamp",
+    "description": "Microsoft's browser-based video creation studio featuring AI auto-captions, voiceovers, and smart templates.",
+    "categories": [
+      "Content Creation",
+      "Video"
+    ],
+    "pricing": "Freemium",
+    "url": "https://clipchamp.com",
+    "id": 402
+  },
+  {
+    "name": "Deepgram",
+    "description": "Speech AI platform delivering real-time speech-to-text, audio transcription, and voice agents with lightning speed.",
+    "categories": [
+      "Audio",
+      "AI Agents"
+    ],
+    "pricing": "Freemium",
+    "url": "https://deepgram.com",
+    "id": 403
+  },
+  {
+    "name": "Cognii",
+    "description": "AI virtual tutor providing conversational qualitative assessments and open-response evaluations for education.",
+    "categories": [
+      "Education",
+      "Text"
+    ],
+    "pricing": "Subscription",
+    "url": "https://www.cognii.com",
+    "id": 404
+  },
+  {
+    "name": "Knewton Alta",
+    "description": "Adaptive courseware engine for higher education that detects knowledge gaps and delivers targeted remedial instruction.",
+    "categories": [
+      "Education",
+      "Data"
+    ],
+    "pricing": "Subscription",
+    "url": "https://www.wiley.com/en-us/education/alta",
+    "id": 405
+  },
+  {
+    "name": "Munch",
+    "description": "AI content intelligence platform that analyzes trending topics to extract viral segments from long videos.",
+    "categories": [
+      "Content Creation",
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Subscription",
+    "url": "https://www.getmunch.com",
+    "id": 406
+  },
+  {
+    "name": "Repurpose.io",
+    "description": "Automated distribution engine that publishes one video across TikTok, YouTube Shorts, Instagram Reels, and LinkedIn.",
+    "categories": [
+      "Content Creation",
+      "Video",
+      "Marketing"
+    ],
+    "pricing": "Subscription",
+    "url": "https://repurpose.io",
+    "id": 407
+  },
+  {
+    "name": "TweetHunter",
+    "description": "All-in-one Twitter growth engine with AI tweet generation, viral library inspiration, and scheduled threads.",
+    "categories": [
+      "Content Creation",
+      "Marketing",
+      "Text"
+    ],
+    "pricing": "Subscription",
+    "url": "https://tweethunter.io",
+    "id": 408
+  },
+  {
+    "name": "Taplio",
+    "description": "LinkedIn content generation and analytics platform powered by AI to grow personal brands and engagement.",
+    "categories": [
+      "Content Creation",
+      "Marketing",
+      "Text"
+    ],
+    "pricing": "Subscription",
+    "url": "https://taplio.com",
+    "id": 409
+  },
+  {
+    "name": "Lately AI",
+    "description": "Neuroscience-backed AI repurposing platform that breaks long videos and podcasts into social media snippets.",
+    "categories": [
+      "Content Creation",
+      "Marketing",
+      "Text"
+    ],
+    "pricing": "Subscription",
+    "url": "https://www.lately.ai",
+    "id": 410
+  },
+  {
+    "name": "StoryChief",
+    "description": "Content marketing workspace that centralizes multi-channel editorial calendars, AI copy generation, and SEO audits.",
+    "categories": [
+      "Content Creation",
+      "Marketing",
+      "Text"
+    ],
+    "pricing": "Subscription",
+    "url": "https://www.storychief.io",
+    "id": 411
+  },
+  {
+    "name": "Beautiful.ai",
+    "description": "Presentation software that uses smart design rules to automatically lay out slides cleanly as you add content.",
+    "categories": [
+      "Content Creation",
+      "Productivity"
+    ],
+    "pricing": "Subscription",
+    "url": "https://www.beautiful.ai",
+    "id": 412
+  },
+  {
+    "name": "NovelAI",
+    "description": "AI-assisted storytelling sandbox with fine-tuned narrative models and anime image generation for writers.",
+    "categories": [
+      "Content Creation",
+      "Text",
+      "Image"
+    ],
+    "pricing": "Subscription",
+    "url": "https://novelai.net",
+    "id": 413
+  },
+  {
+    "name": "ShortlyAI",
+    "description": "Minimalist, distraction-free writing environment that finishes your thoughts and expands paragraphs on command.",
+    "categories": [
+      "Content Creation",
+      "Text"
+    ],
+    "pricing": "Subscription",
+    "url": "https://www.shortlyai.com",
+    "id": 414
   }
 ];
 
 export const aiCategories = [
-  { value: 'All', label: 'All Categories' },
-  { value: 'Text', label: 'Text & Writing' },
-  { value: 'Image', label: 'Image Generation' },
-  { value: 'Audio', label: 'Audio & Voice' },
-  { value: 'Video', label: 'Video Generation' },
-  { value: 'Code', label: 'Coding & Dev' },
-  { value: 'Productivity', label: 'Productivity' },
-  { value: 'Data', label: 'Data Analysis' },
-  { value: 'Graphic Design', label: 'Graphic Design' },
-  { value: 'UI/UX', label: 'UI/UX Design' },
-  { value: '3D Modelling', label: '3D Modelling' },
-  { value: 'Animation', label: '2D/3D Animation' },
-  { value: 'Freelance', label: 'Freelance & Business' },
-  { value: 'App Dev', label: 'Mobile & App Dev' },
-  { value: 'Education', label: 'Education' },
-  { value: 'Cybersecurity', label: 'Cybersecurity' },
-  { value: 'Marketing', label: 'Marketing & SEO' },
-  { value: 'Game Dev', label: 'Game Dev' },
-  { value: 'Research', label: 'Research & Science' },
-  { value: 'HR', label: 'HR & Resumes' },
-  { value: 'Photography', label: 'Photography & Editing' },
-  { value: 'Finance', label: 'Finance & Investing' }
+  {
+    "value": "All",
+    "label": "All Categories"
+  },
+  {
+    "value": "Text",
+    "label": "Text & Writing"
+  },
+  {
+    "value": "Image",
+    "label": "Image Generation"
+  },
+  {
+    "value": "Audio",
+    "label": "Audio & Voice"
+  },
+  {
+    "value": "Video",
+    "label": "Video Generation"
+  },
+  {
+    "value": "Code",
+    "label": "Coding & Dev"
+  },
+  {
+    "value": "Productivity",
+    "label": "Productivity"
+  },
+  {
+    "value": "Data",
+    "label": "Data Analysis"
+  },
+  {
+    "value": "Graphic Design",
+    "label": "Graphic Design"
+  },
+  {
+    "value": "UI/UX",
+    "label": "UI/UX Design"
+  },
+  {
+    "value": "3D Modelling",
+    "label": "3D Modelling"
+  },
+  {
+    "value": "Animation",
+    "label": "2D/3D Animation"
+  },
+  {
+    "value": "Freelance",
+    "label": "Freelance & Business"
+  },
+  {
+    "value": "App Dev",
+    "label": "Mobile & App Dev"
+  },
+  {
+    "value": "Education",
+    "label": "Education"
+  },
+  {
+    "value": "Cybersecurity",
+    "label": "Cybersecurity"
+  },
+  {
+    "value": "Marketing",
+    "label": "Marketing & SEO"
+  },
+  {
+    "value": "Game Dev",
+    "label": "Game Dev"
+  },
+  {
+    "value": "Research",
+    "label": "Research & Science"
+  },
+  {
+    "value": "HR",
+    "label": "HR & Resumes"
+  },
+  {
+    "value": "Photography",
+    "label": "Photography & Editing"
+  },
+  {
+    "value": "Finance",
+    "label": "Finance & Investing"
+  },
+  {
+    "value": "Content Creation",
+    "label": "Content Creation & Media"
+  },
+  {
+    "value": "AI Agents",
+    "label": "AI Agents & Automation"
+  },
+  {
+    "value": "Language Learning",
+    "label": "Language & Translation"
+  }
 ];
 
 export const aiPricingTiers = [
